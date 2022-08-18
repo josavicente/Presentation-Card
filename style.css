@@ -13,17 +13,17 @@ body{
   justify-content:center;
   align-items: center;
   min-height: 100vh;
-  background: #fbe9e7;
+  background: #fbf8f3;
 }
 
 .card{
   position: relative;
   width: 300px;
   height: 400px;
-  background: #fff;
+  background: #fff0eb;
   transform-style: preserve-3d;
   transform: perspective(1000px);
-  box-shadow: 10px 20px 40px rgba(0,0,0,0.25);
+  box-shadow: 10px 20px 40px #232323;
   transition: 1s;
   will-change: transform;    
 }
@@ -41,7 +41,7 @@ body{
   transform-style: preserve-3d;
   background: #000;
   transition: 1s;
-  box-shadow: 10px 20px 40px rgba(0,0,0,0.25);
+  box-shadow: 10px 20px 40px #232323;
 }
 
 .card:hover .imgBox{
@@ -89,7 +89,7 @@ body{
 }
 
 .card .details .content h2 span{
-  color: #e21212;
+  color: #6a0000;
   font-size: 0.8em;
 }
 
@@ -102,8 +102,8 @@ body{
 .card .details .content .social-icons a{
   width: 40px;
   height: 40px;
-  background: #333;
-  color: #fff;
+  background: #232323;
+  color: #fff0eb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +117,7 @@ body{
 }
 
 .card .details .content .social-icons a:hover{
-  background: #e21212;
+  background: #6a0000;
 }
 
 .icon{
