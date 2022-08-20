@@ -28,7 +28,10 @@ body{
   will-change: transform;    
 }
 
+.card:hover{
+  transform: translateY(50%);
 
+}
 .card .imgBox{
   position: relative;
   width: 100%;
