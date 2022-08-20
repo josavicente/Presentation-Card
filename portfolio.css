@@ -78,6 +78,6 @@ body{
       border-radius: 10px;
       
 }
-.social-icons a:hover{
+.social-icons a:hover, a:active{
       background: #00bcd4;
 }
