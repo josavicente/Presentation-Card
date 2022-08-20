@@ -41,7 +41,7 @@ body{
   box-shadow: 10px 20px 40px #232323;
 }
 
-.card:hover .imgBox{
+.card:hover, card:active .imgBox{
   transform: rotateX(180deg);
 }
 
@@ -113,7 +113,7 @@ body{
   
 }
 
-.card .details .content .social-icons a:hover{
+.card .details .content .social-icons a:hover, a:active{
   background: #6a0000;
 }
 
